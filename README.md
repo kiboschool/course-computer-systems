@@ -1,10 +1,5 @@
-# Kibo Course Template
+# Computer Systems
 
-## Using this template
-
-- create a github repo for the course
-- update this Readme with the relevant info for the course
-- update book.toml with the course name and authors
 - create a main and draft vercel deployment 
 - update the materials in src/
 

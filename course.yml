@@ -1,0 +1,246 @@
+name: Computer Systems
+code: CSA002
+term: Jan-2024
+about_path: src/front-matter/course-overview.md
+units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/front-matter/course-overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Live Classes
+        path: src/front-matter/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Assessments
+        path: src/front-matter/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Getting Help
+        path: src/front-matter/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Giving Help
+        path: src/front-matter/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Academic Integrity
+        path: src/front-matter/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Course Tools
+        path: src/front-matter/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+  - name: 'Week 1: Computer Systems Introduction'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-1.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Bits, Bytes, and Data Representation
+        path: src/lessons/week-1/data_representation.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Hardware Organization of a System
+        path: src/lessons/week-1/hardware.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Integer Representation  and Arithmetic
+        path: src/lessons/week-1/integer_representation.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Operating System Responsibilities
+        path: src/lessons/week-1/os_responsibilities.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Introduction to C (gcc)
+        path: src/lessons/week-1/intro_to_c.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Using a Debugger (gdb)
+        path: src/lessons/week-1/using_a_debugger.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-1/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 2: Machine-Level Representations Part 1'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-2.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-2/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 3: Machine-Level Representations Part 2'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-3.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-3/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 4: Processor Architecture'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-4.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-4/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 5: Optimization'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-5.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-5/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 6: The Memory Hierarchy'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-6.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-6/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 7: Process Execution'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-7.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-7/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 8: Virtual Memory'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-8.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-8/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 9: Network Programming'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-9.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-9/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+  - name: 'Week 10: Concurrency & Synchronization'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-10.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: false
+      - name: Assignment
+        path: src/lessons/week-10/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 10.0
+        due: 2024-12-31
+        publish: false
+

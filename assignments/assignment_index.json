@@ -1,0 +1,199 @@
+{
+  "name": "Computer Systems",
+  "id": "550151",
+  "code": "CSA002",
+  "assignments": [
+    {
+      "id": "4166509",
+      "name": "Assignment 5",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4166509",
+      "filename": "assignment_5.pdf"
+    },
+    {
+      "id": "4209548",
+      "name": "Assignment 6",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4209548",
+      "filename": "assignment_6.pdf"
+    },
+    {
+      "id": "4234992",
+      "name": "Assignment 7",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4234992",
+      "filename": "assignment_7.pdf"
+    },
+    {
+      "id": "3925252",
+      "name": "Week 1 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/3925252",
+      "filename": "week_1_participation.pdf"
+    },
+    {
+      "id": "4259172",
+      "name": "Week 10 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4259172",
+      "filename": "week_10_participation.pdf"
+    },
+    {
+      "id": "3932411",
+      "name": "Week 2 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/3932411",
+      "filename": "week_2_participation.pdf"
+    },
+    {
+      "id": "3979974",
+      "name": "Week 3 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/3979974",
+      "filename": "week_3_participation.pdf"
+    },
+    {
+      "id": "4031752",
+      "name": "Week 4 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4031752",
+      "filename": "week_4_participation.pdf"
+    },
+    {
+      "id": "4137162",
+      "name": "Week 7 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4137162",
+      "filename": "week_7_participation.pdf"
+    },
+    {
+      "id": "4209569",
+      "name": "Week 8 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4209569",
+      "filename": "week_8_participation.pdf"
+    },
+    {
+      "id": "4209574",
+      "name": "Week 9 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4209574",
+      "filename": "week_9_participation.pdf"
+    },
+    {
+      "id": "4139626",
+      "name": "Weeks 5 and 6 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4139626",
+      "filename": "weeks_5_and_6_participation.pdf"
+    },
+    {
+      "id": "4166509",
+      "name": "Assignment 5",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4166509",
+      "filename": "assignment_5.pdf"
+    },
+    {
+      "id": "4209548",
+      "name": "Assignment 6",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4209548",
+      "filename": "assignment_6.pdf"
+    },
+    {
+      "id": "4234992",
+      "name": "Assignment 7",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4234992",
+      "filename": "assignment_7.pdf"
+    },
+    {
+      "id": "3925252",
+      "name": "Week 1 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/3925252",
+      "filename": "week_1_participation.pdf"
+    },
+    {
+      "id": "4259172",
+      "name": "Week 10 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4259172",
+      "filename": "week_10_participation.pdf"
+    },
+    {
+      "id": "3932411",
+      "name": "Week 2 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/3932411",
+      "filename": "week_2_participation.pdf"
+    },
+    {
+      "id": "3979974",
+      "name": "Week 3 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/3979974",
+      "filename": "week_3_participation.pdf"
+    },
+    {
+      "id": "4031752",
+      "name": "Week 4 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4031752",
+      "filename": "week_4_participation.pdf"
+    },
+    {
+      "id": "4137162",
+      "name": "Week 7 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4137162",
+      "filename": "week_7_participation.pdf"
+    },
+    {
+      "id": "4209569",
+      "name": "Week 8 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4209569",
+      "filename": "week_8_participation.pdf"
+    },
+    {
+      "id": "4209574",
+      "name": "Week 9 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4209574",
+      "filename": "week_9_participation.pdf"
+    },
+    {
+      "id": "4139626",
+      "name": "Weeks 5 and 6 Participation",
+      "course_id": "550151",
+      "course_code": "CSA002",
+      "href": "https://gradescope.com/courses/550151/assignments/4139626",
+      "filename": "weeks_5_and_6_participation.pdf"
+    }
+  ]
+}

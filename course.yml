@@ -1,0 +1,586 @@
+# Visit https://docs.google.com/document/d/1Hm41CGu0pZrGB7_XrPZR50DU7DXvqeC6aZuaTLpRLlo/edit
+# for full details about the contents of the course.yml file.
+#
+# - Top level details of the course:
+#     name: course name
+#     code: course code
+#     term: when is this offered
+#     about_path: the path to the course overview md file
+#     image_path: the path to an image to use as the course header
+#
+# - Units
+#     name: name of the unit (e.g. Week 1: Introduction)
+#     activities: list of the activities in the Unit
+#
+# - Activities
+#     name: name of the activity
+#     path: where to find the file for the activity
+#     workload: how many minutes the activity is estimated to take
+#     type: `lesson` or `assignment`
+#     kind: airlock resource kind:
+#       `GENERAL`, `MEETING`, `PUBLICATION`, `PUBLICATION_REVIEWED`,
+#       `ASSIGNMENT`, `ASSIGNMENT_SUMMATIVE`
+#     publish: Is this ready, or still a draft? Publish can be set to:
+#       - `true` (publish to students now)
+#       - `false` (do not publish to students), default value if not specified
+#       - date, formatted like `2023-10-25` (publish to students on that date)
+#     due: When is the due date for the activity (e.g. 2023-12-27)
+#     grade_weight: what percent of the course grade is this
+#       (for now, only for assignments).  Must sum to 100.
+
+name: Computer Systems
+code: CSA002
+term: Jan-2024
+about_path: src/front-matter/course-overview.md
+image_path: src/investigating.png
+units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/front-matter/course-overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-07
+      - name: Live Classes
+        path: src/front-matter/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Assessments
+        path: src/front-matter/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Getting Help
+        path: src/front-matter/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Giving Help
+        path: src/front-matter/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Academic Integrity
+        path: src/front-matter/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: true
+      - name: Course Tools
+        path: src/front-matter/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+  - name: 'Module 1: Computer Systems Introduction'
+    activities:
+      - name: Introduction
+        path: src/lessons/module01.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-01-08
+      - name: Bits, Bytes, and Data Representation
+        path: src/lessons/module01/data_representation.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-08
+      - name: Integer Representation  and Arithmetic
+        path: src/lessons/module01/integer_representation.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-08
+      - name: Digital Systems and Numbers
+        path: src/lessons/module01/digital_systems.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-01-08
+      - name: Hardware Organization of a System
+        path: src/lessons/module01/hardware.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-08
+      - name: Operating System Responsibilities
+        path: src/lessons/module01/os_responsibilities.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: 2024-01-08
+      - name: Introduction to C (gcc)
+        path: src/lessons/module01/intro_to_c.md
+        type: lesson
+        kind: GENERAL
+        workload: 180
+        publish: 2024-01-08
+      - name: Week 1 Participation
+        path: src/lessons/module01/participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-01-09
+        publish: 2024-01-08
+      - name: Assignment 1
+        path: src/lessons/module01/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 9
+        due: 2024-01-15
+        publish: 2024-01-08
+  - name: 'Module 2: Machine-Level Representations Part 1'
+    activities:
+      - name: Introduction
+        path: src/lessons/module02.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-01-14
+      - name: A Couple of Notes
+        path: src/lessons/module02/data-sizes-and-endianness.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Introduction to ISAs
+        path: src/lessons/module02/intro-to-isa.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Decoding Instructions
+        path: src/lessons/module02/read-decode.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Registers
+        path: src/lessons/module02/registers.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Memory Addressing Modes
+        path: src/lessons/module02/addressing-modes.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Arithmetic Operations
+        path: src/lessons/module02/arithmetic-ops.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Logical Operations
+        path: src/lessons/module02/logical-ops.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Using a Debugger
+        path: src/lessons/module02/using-a-debugger.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-14
+      - name: Week 2 Participation
+        path: src/lessons/module02/participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-01-17
+        publish: 2024-01-14
+      - name: Assignment 2
+        path: src/lessons/module02/assignment.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 900
+        grade_weight: 9
+        due: 2024-01-22
+        publish: 2024-01-14
+  - name: 'Module 3: Machine-Level Representations Part 2'
+    activities:
+      - name: Introduction
+        path: src/lessons/module03.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-01-21
+      - name: Condition Codes
+        path: src/lessons/module03/condition-codes.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Jumps
+        path: src/lessons/module03/jumps.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Loops
+        path: src/lessons/module03/loops.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Switch Statements
+        path: src/lessons/module03/switch-statements.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Function Calls
+        path: src/lessons/module03/function-calls.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Arguments and Result
+        path: src/lessons/module03/arguments-and-result.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Arrays
+        path: src/lessons/module03/arrays.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Structures
+        path: src/lessons/module03/structures.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-21
+      - name: Week 3 Participation
+        path: src/lessons/module03/participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-01-24
+        publish: 2024-01-21
+      - name: Assignment 3
+        path: src/lessons/module03/assignment.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 900
+        grade_weight: 9
+        due: 2024-01-29
+        publish: 2024-01-21
+  - name: 'Module 4: Processor Architecture'
+    activities:
+      - name: Introduction
+        path: src/lessons/module04.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-01-28
+      - name: Processor Components
+        path: src/lessons/module04/processor-components.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-28
+      - name: Digital Circuit Design
+        path: src/lessons/module04/digital-circuit-design.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-28
+      - name: Combinational vs. Sequential Circuits
+        path: src/lessons/module04/types-of-circuits.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-28
+      - name: Clock Cycles and Clock Rate
+        path: src/lessons/module04/clock-rate.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-28
+      - name: Week 4 Participation
+        path: src/lessons/module04/participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-01-31
+        publish: 2024-01-28
+      - name: Assignment 4
+        path: src/lessons/module04/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 9.5
+        due: 2024-02-05
+        publish: 2024-01-28
+  - name: 'Module 5: Optimization'
+    activities:
+      - name: Introduction
+        path: src/lessons/module05.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-02-11
+      - name: Processor Architecture and Optimization
+        path: src/lessons/module05/processors-and-optimization.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-11
+      - name: Types of Optimizations
+        path: src/lessons/module05/types-of-optimization.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-02-11
+      - name: Diving Deep into Optimization
+        path: src/lessons/module05/optimization-deep-dive.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 240
+        publish: 2024-02-11
+      - name: Profiling
+        path: src/lessons/module05/profiling.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-11
+      - name: Weeks 5 and 6 Participation
+        path: src/lessons/module05/participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 2
+        due: 2024-02-07
+        publish: 2024-02-11
+      - name: Midterm Project
+        path: src/lessons/module05/midterm-project.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 1800
+        grade_weight: 25
+        due: 2024-02-26
+        publish: 2024-02-11
+      - name: Week 7 Participation
+        path: src/lessons/module05/week7-participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-02-14
+        publish: 2024-02-11
+  - name: 'Module 6: The Memory Hierarchy'
+    activities:
+      - name: Introduction
+        path: src/lessons/module06.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-02-25
+      - name: Memory Technologies
+        path: src/lessons/module06/memory-technologies.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: SRAM
+        path: src/lessons/module06/sram.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: DRAM
+        path: src/lessons/module06/dram.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: Non-volatile Storage
+        path: src/lessons/module06/nonvolatile-storage.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: The Memory Hierarchy
+        path: src/lessons/module06/memory-hierarchy.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: The Locality Principle
+        path: src/lessons/module06/locality-principle.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: Caches
+        path: src/lessons/module06/caches.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: Direct-Mapped Caches
+        path: src/lessons/module06/direct-mapped-caches.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: Associative Caches
+        path: src/lessons/module06/associate-caches.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: Write Strategies
+        path: src/lessons/module06/write-strategies.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-02-25
+      - name: Assignment 5
+        path: src/lessons/module06/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 9.5
+        due: 2024-03-04
+        publish: 2024-02-25
+      - name: Week 8 Participation
+        path: src/lessons/module06/week8-participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-02-28
+        publish: 2024-02-25
+  - name: 'Module 7: Process Execution'
+    activities:
+      - name: Introduction
+        path: src/lessons/module07.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-03-02
+      - name: Processes
+        path: src/lessons/module07/processes.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: POSIX Process Management
+        path: src/lessons/module07/posix-process.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: Threads
+        path: src/lessons/module07/threads.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: Context Switching
+        path: src/lessons/module07/context-switching.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: Interrupts
+        path: src/lessons/module07/interrupts.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: Protection
+        path: src/lessons/module07/protection.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: Linux Tools
+        path: src/lessons/module07/linux-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: 2024-03-02
+      - name: Assignment 6
+        path: src/lessons/module07/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 9.5
+        due: 2024-03-10
+        publish: 2024-03-02
+      - name: Week 9 Participation
+        path: src/lessons/module07/week9-participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-03-06
+        publish: 2024-03-02
+  - name: 'Module 8: Virtual Memory'
+    activities:
+      - name: Introduction
+        path: src/lessons/module08.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-03-10
+      - name: Virtual Memory
+        path: src/lessons/module08/virtual-memory.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-03-10
+      - name: Uses of Virtual Memory
+        path: src/lessons/module08/virtual-memory-uses.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-03-10
+      - name: Mechanisms for Virtual Memory
+        path: src/lessons/module08/virtual-memory-mechanisms.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-03-10
+      - name: Policies for Virtual Memory
+        path: src/lessons/module08/virtual-memory-policies.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2024-03-10
+      - name: Assignment 7
+        path: src/lessons/module08/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 9.5
+        due: 2024-03-17
+        publish: 2024-03-10
+      - name: Week 10 Participation
+        path: src/lessons/module08/week10-participation.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 60
+        grade_weight: 1
+        due: 2024-03-13
+        publish: 2024-03-10

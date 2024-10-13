@@ -1,0 +1,13 @@
+# Profiling
+
+Using a profiler in C programming is an essential skill for developers looking to optimize their applications for better performance. A profiler helps identify the parts of a program that consume the most resources, such as CPU time or memory usage. By pinpointing these hotspots, developers can focus their optimization efforts where they will have the most significant impact, rather than blindly trying to optimize the entire codebase. This targeted approach not only saves time but also leads to more efficient and faster-running applications.
+
+This video introduces a couple of common profiling tools used in C:
+
+<div class="embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/kjcg0R49qu0?si=UWS1SjNA0xnLb6G6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+To start using a profiler, one must first choose the right tool for their needs. There are various profilers available for C, ranging from gprof, a GNU profiler that comes with the GCC compiler, to more sophisticated tools like Valgrind and Google's gperftools. Each profiler has its strengths and suits different types of applications and profiling needs. For instance, gprof is great for getting a general overview of where a program spends its time, while Valgrind's Callgrind tool offers detailed information about cache usage and branch prediction statistics.
+
+After selecting a suitable profiler, the next step involves instrumenting the code, if necessary, and running the profiler. This process typically starts by compiling the C program with specific flags to enable profiling, such as `-pg` for gprof. Then, the program is run as usual, and the profiler generates a report detailing the program's execution. This report can show various metrics, including function call counts, execution time spent in each function, and memory usage patterns. The level of detail and the metrics provided depend on the profiler's capabilities.
+
+Interpreting the profiler's report is crucial for effective optimization. Developers should look for functions with high execution times or those called excessively as starting points for optimization. It's also important to pay attention to memory usage patterns, as inefficient memory access can significantly impact performance due to cache misses. Armed with this information, developers can refactor code, optimize algorithms, or apply specific techniques like loop unrolling or data alignment to address the identified bottlenecks. Ultimately, iterative profiling and optimization based on profiler feedback can lead to highly optimized and efficient C applications.

@@ -1,0 +1,11 @@
+[book]
+authors = ["David Walter"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Computer Systems"
+
+[build]
+build-dir = "output"
+create-missing = true
+use-default-preprocessors = false
